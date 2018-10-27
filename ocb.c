@@ -18,11 +18,11 @@ static int join_ocb(struct nl80211_state *state,
 		{ .name = "5MHz",
 		  .width = NL80211_CHAN_WIDTH_5,
 		  .freq1_diff = 0,
-		  .chantype = -1 },
+		  .chantype = NL80211_CHAN_5MHZ },
 		{ .name = "10MHz",
 		  .width = NL80211_CHAN_WIDTH_10,
 		  .freq1_diff = 0,
-		  .chantype = -1 },
+		  .chantype = NL80211_CHAN_10MHZ },
 	};
 
 	if (argc < 2)
